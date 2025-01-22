@@ -12,6 +12,7 @@ FORO-HUB es un proyecto desarrollado en Java con Spring Boot 3 que implementa un
 * Calidad de código: Cumplimiento de los principios SOLID y enfoque en buenas prácticas para garantizar mantenibilidad y extensibilidad.
 * Gestión de errores: Manejo exhaustivo de excepciones para mejorar la experiencia del usuario y garantizar estabilidad.
 * Prueba Realizadas: Se utiliza el programa "INSOMNIA" para hacer pruebas a la API y poder ejecutar el CRUD para cada una de las clases especificadas.
+* Documentación interactiva: Uso de Springdoc OpenAPI para generar documentación precisa y navegable del API REST.
 
 <b>Este proyecto demuestra no solo el dominio de herramientas clave en desarrollo backend, sino también la capacidad para construir sistemas seguros, escalables y bien estructurados, ideal para destacar en procesos de selección profesional.</b>
 
