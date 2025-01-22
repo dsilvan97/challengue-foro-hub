@@ -79,6 +79,10 @@ public class UsuarioController {
             throw new ValidacionException("El Usuario a actualizar no existe.");
         }
 
+        if (repositorio.getReferenceById(id).getId() == 1){
+            throw new ValidacionException("No se puede actualizar el usuario administrador.");
+        }
+
         DatosActualizarUsuario datosParaActualizar = new DatosActualizarUsuario(id, datos.nombre(), datos.email(), datos.clave(), datos.perfil());
 
         DatosCreadosUsuario usuarioActualizado = service.actualizarTopico(datosParaActualizar);
@@ -95,6 +99,10 @@ public class UsuarioController {
 
         if (!repositorio.existsById(id)){
             throw new ValidacionException("El usuario a eliminar no existe.");
+        }
+
+        if (repositorio.getReferenceById(id).getId() == 1){
+            throw new ValidacionException("No se puede eliminar el usuario administrador.");
         }
 
         repositorio.deleteById(id);

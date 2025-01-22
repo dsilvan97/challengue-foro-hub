@@ -19,14 +19,30 @@ public class SpringDocConfiguration {
                         .addSecuritySchemes("bearer-key",
                                 new SecurityScheme().type(SecurityScheme.Type.HTTP).scheme("bearer").bearerFormat("JWT")))
                 .info(new Info()
-                        .title("Voll.med API")
-                        .description("API Rest de la aplicación Voll.med, que contiene las funcionalidades CRUD de médicos y de pacientes, además de reserva y cancelamiento de consultas")
+                        .title("CHALLENGUE: FORO HUB - DESARROLLADO POR DAVID SILVA")
+                        .description("""
+                                FORO-HUB es un proyecto desarrollado en Java con Spring Boot 3 que implementa un sistema de foros interactivo y eficiente, diseñado para destacar habilidades técnicas y prácticas modernas en desarrollo backend.
+                                
+                                Características principales:\n
+                                
+                                -Gestión de datos robusta: Uso de MySQL como base de datos relacional, con operaciones completas de CRUD manejadas por JPA y Hibernate.\n
+                                -Migraciones de bases de datos: Integración de Flyway para un control eficiente de versiones.\n
+                                -Productividad y limpieza en el código: Uso de Lombok para reducir código repetitivo y mejorar la legibilidad.\n
+                                -Seguridad avanzada: Implementación de JWT Token para autenticación y autorización con control de acceso basado en roles.\n
+                                -Arquitectura escalable: Aplicación del patrón Strategy para una lógica modular y flexible.\n
+                                -Calidad de código: Cumplimiento de los principios SOLID y enfoque en buenas prácticas para garantizar mantenibilidad y extensibilidad.\n
+                                -Gestión de errores: Manejo exhaustivo de excepciones para mejorar la experiencia del usuario y garantizar estabilidad.\n
+                                -Prueba Realizadas: Se utiliza el programa "INSOMNIA" para hacer pruebas a la API y poder ejecutar el CRUD para cada una de las clases especificadas.\n
+                                -Documentación interactiva: Uso de Springdoc OpenAPI para generar documentación precisa y navegable del API REST.\n\n
+                                
+                                Este proyecto demuestra no solo el dominio de herramientas clave en desarrollo backend, sino también la capacidad para construir sistemas seguros, escalables y bien estructurados, ideal para destacar en procesos de selección profesional.\n
+                                """)
                         .contact(new Contact()
-                                .name("Equipo Backend")
-                                .email("backend@voll.med"))
+                                .name("David Silva")
+                                .email("davidsn97@hotmail.com"))
                         .license(new License()
-                                .name("Apache 2.0")
-                                .url("http://voll.med/api/licencia")));
+                                .name("Linkedin")
+                                .url("https://www.linkedin.com/in/david-silva-nunez/")));
     }
 
 }
