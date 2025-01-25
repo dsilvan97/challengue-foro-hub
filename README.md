@@ -16,6 +16,10 @@ FORO-HUB es un proyecto desarrollado en Java con Spring Boot 3 que implementa un
 
 <b>Este proyecto demuestra no solo el dominio de herramientas clave en desarrollo backend, sino también la capacidad para construir sistemas seguros, escalables y bien estructurados, ideal para destacar en procesos de selección profesional.</b>
 
+Mi Linkedin: https://www.linkedin.com/in/david-silva-nunez/
+
+Link video funcionamiento: https://www.youtube.com/watch?v=Q68GKqsKIb8
+
 <h2>----------------------------DATOS INICIALES----------------------------</h2>
 
 <h2>PERFIL:</h2>
